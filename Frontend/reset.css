@@ -1,0 +1,35 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+@-ms-viewport { width: device-width; }
+
+html {
+  height: 100%;
+  width: 100%;
+
+  font-size: $base_font_size;
+  line-height: $base_line_height;
+
+  font-family: $sans;
+  font-weight: $roman;
+  font-style: normal;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+
+  color: $foreground;
+  background-color: $background;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}

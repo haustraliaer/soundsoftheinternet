@@ -1,0 +1,6 @@
+/node_modules
+/webpack/stats.json
+/Frontend/build
+
+npm-debug.log
+.DS_Store

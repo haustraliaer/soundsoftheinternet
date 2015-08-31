@@ -1,0 +1,5 @@
+{
+  "key": "short string of numbers and letters",
+  "secret": "long string of numbers and letters",
+  "region": "ap-southeast-2"
+}
