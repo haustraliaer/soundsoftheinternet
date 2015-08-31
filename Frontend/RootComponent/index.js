@@ -18,10 +18,15 @@ export default React.createClass({
       return (
         <iframe
           key={index}
-          src={`https://vine.co/v/${vine.id}/embed/simple?audio=1`}
-          width="300"
-          height="300"
-          frameborder="0" />
+          src={`https://vine.co/v/${vine.id}/card?mute=0`}
+          frameborder="0"
+          scrolling="no"
+          seamless="seamless"
+          webkitallowfullscreen="webkitAllowFullScreen"
+          mozallowfullscreen="mozallowfullscreen"
+          allowfullscreen="allowfullscreen"
+          width="500"
+          height="500" />
       )
     })
   },
