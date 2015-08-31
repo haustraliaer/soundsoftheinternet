@@ -17,6 +17,7 @@ export default React.createClass({
     return vineManifest.map((vine, index) => {
       return (
         <iframe
+          key={index}
           src={`https://vine.co/v/${vine.id}/embed/simple?audio=1`}
           width="300"
           height="300"
