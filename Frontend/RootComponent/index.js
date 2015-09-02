@@ -18,7 +18,7 @@ export default React.createClass({
       return (
         <iframe
           key={index}
-          src={`https://vine.co/v/${vine.id}/card?mute=0`}
+          src={`https://vine.co/v/${vine.id}/card?audio=1`}
           frameborder="0"
           scrolling="no"
           seamless="seamless"
